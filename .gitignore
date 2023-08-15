@@ -30,6 +30,12 @@ public/uploads/*.m4a.vtt
 
 *.pem
 *.crt
+*mp4
+tmp-*json
+tmp-*srt
+tmp-*txt
+tmp-*tsv
+tmp-*vtt
 
 # Editor directories and files
 .vscode/*
@@ -41,3 +47,4 @@ public/uploads/*.m4a.vtt
 *.njsproj
 *.sln
 *.sw?
+.vercel
