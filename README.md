@@ -1,5 +1,20 @@
-openai-whisper
+# celebrity-chat-voice-app
 ===========
+
+## Setup
+
+### Environment Variables
+
+Before you start the application, you need to add the following environment variables in a `.env.local` file in the root of your project:
+
+\`\`\`plaintext
+OPENAI_API_KEY=''
+ELEVEN_LABS_API_KEY=''
+CELEBRITY=''
+\`\`\`
+
+Make sure you **never commit** the `.env.local` file to your version control system as it contains sensitive information.
+
 
 This is a sample webapp implementation of [OpenAI Whisper](https://openai.com/blog/whisper/), an automatic speech recognition (ASR) system, using [Next.JS](https://nextjs.org/).
 
@@ -14,7 +29,7 @@ It is also possible to playback the recorded audio to verify the output.
 
 * If you are looking for voice-chat app using `Whisper`, please check [openai-whisper-talk](https://github.com/supershaneski/openai-whisper-talk/).
 
-* For `Nuxt.js` version, please check [openai-chatterbox](https://github.com/supershaneski/openai-chatterbox/).
+* For `Next.js` version, please check [openai-chatterbox](https://github.com/supershaneski/openai-chatterbox/).
 
 # Motivation
 
