@@ -1,5 +1,5 @@
 # celebrity-chat-voice-app
-===========
+
 
 ## Setup
 
@@ -7,11 +7,12 @@
 
 Before you start the application, you need to add the following environment variables in a `.env.local` file in the root of your project:
 
-\`\`\`plaintext
+```sh
+plaintext
 OPENAI_API_KEY=''
 ELEVEN_LABS_API_KEY=''
 CELEBRITY=''
-\`\`\`
+```
 
 Make sure you **never commit** the `.env.local` file to your version control system as it contains sensitive information.
 
